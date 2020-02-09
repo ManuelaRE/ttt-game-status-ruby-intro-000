@@ -35,9 +35,9 @@ def won?(board)
 end
 
 def full?(board)
-board.each do |x|
-  if x == "X" || x == "O"
-  else false
-  end
+  board.each do |x|
+    if x == "X" || x == "O"
+    else false
+    end
   end
 end
