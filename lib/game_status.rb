@@ -39,4 +39,5 @@ board.each do |x|
   if x == "X" || x == "O"
   else false
   end
+  end
 end
