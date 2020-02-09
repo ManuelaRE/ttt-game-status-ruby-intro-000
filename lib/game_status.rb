@@ -36,7 +36,7 @@ end
 
 def full(board)
 board.each |x|
-if x == "X" || x == "O"
-else false
+  if x == "X" || x == "O"
+  else false
+  end
 end
-  
