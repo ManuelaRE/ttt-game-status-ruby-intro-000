@@ -18,11 +18,10 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.select do |wincomb|
+  WIN_COMBINATIONS.each do |wincomb|
       if
-        board[wincomb[0]] == board[wincomb[1]] &&
-        board[wincomb[1]] == board[wincomb[2]] &&
-        position_taken?(board, wincomb[0])
+        index == "X" && index == "O"
+        position_taken?(board, index)
       return wincomb
       else false
     end
